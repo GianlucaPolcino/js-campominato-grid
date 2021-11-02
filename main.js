@@ -22,7 +22,7 @@ function init(tot){
         const sq = createSquare(container);
         sq.innerHTML = i + 1;
         sq.addEventListener('click',function(){
-
+            sq.classList.add('gp-clicked');
         })
     
     }

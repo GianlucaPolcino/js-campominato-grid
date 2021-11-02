@@ -29,6 +29,7 @@
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .gp-normal{
@@ -38,6 +39,7 @@
     width: calc(100% / 9);
     height: calc(100% / 9);
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .gp-hard{
@@ -47,6 +49,17 @@
     width: calc(100% / 7);
     height: calc(100% / 7);
     border: 1px solid black;
+    cursor: pointer;
+}
+
+.gp-clicked{
+    background-color: greenyellow;
+}
+
+.gp-clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
